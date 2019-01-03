@@ -1,0 +1,31 @@
+scalar Date
+
+type Query {
+  people(id: ID!): Person
+}
+
+type Mutation {
+  signup(email: String!, password: String!): String!
+  login(email: String!, password: String!): String!
+}
+
+type Person {
+  name: String
+  height: Int
+  mass: Int
+  gender: String
+  homeworld: Homeworld
+  films: [Film]
+}
+
+type Homeworld {
+  name: String
+  rotation_period: Int
+}
+
+type Film {
+  title: String
+  episode_id: Int
+  release_date: Date
+  characters: [Person]
+}
