@@ -1,0 +1,20 @@
+type Query {
+  info: String
+  readCode: Code!
+}
+
+type Mutation {
+  typeCode(code: CodeInput!): Code!
+}
+
+type Subscription {
+  typingCode: Code!
+}
+
+input CodeInput {
+  body: String
+}
+
+type Code {
+  body: String
+}

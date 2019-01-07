@@ -1,0 +1,1 @@
+module.exports = () => `GraphQL implementation of Jeff CodeEditor`;

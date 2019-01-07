@@ -1,14 +1,5 @@
 {
-  "name": "graphql-ei25",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "graphql-yoga": "^1.16.9"
+    "react-codemirror": "^1.0.0"
   }
 }
